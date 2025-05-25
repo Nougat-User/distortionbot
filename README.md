@@ -14,7 +14,6 @@ Send the bot:
 
 * Works with **photos**, **stickers**, and **GIF animations**.
 * Applies **content-aware resizing** via seam carving.
-* GIFs are optimized: resized and sped up ×3 to reduce processing time.
 * Runs in Docker, supports `.env` configuration.
 
 ---
