@@ -29,6 +29,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 async def distort(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("Обрабатываю фото…")
     logging.info("New photo received")
     photo_file = await update.message.photo[-1].get_file()
     filename = f"{photo_file.file_unique_id}.jpg"
